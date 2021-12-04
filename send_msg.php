@@ -48,7 +48,7 @@ function conn_msg($msg){
      CURLOPT_CUSTOMREQUEST => "POST",
      CURLOPT_POSTFIELDS => $msg ,
      CURLOPT_HTTPHEADER => array(
-       "authorization: Basic NWM1ZDVlMjhlNGIwYmFlNWY0YWNjZmVjOk1Ha05mcUd1ZDAK",
+       "authorization: NWM1ZDVlMjhlNGIwYmFlNWY0YWNjZmVjOk1Ha05mcUd1ZDAK",
        "content-type:  application/json"
      ),
    ));
